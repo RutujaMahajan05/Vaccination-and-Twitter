@@ -1,4 +1,3 @@
-****** Code for thesis****** 
 
 Connection - R script to collect tweets from twitter. Requires authorization tokens sepcified in script from API. 
 
