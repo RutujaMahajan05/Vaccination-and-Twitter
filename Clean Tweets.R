@@ -30,21 +30,6 @@ TextPreprocessing <- lapply(eachtweet, function(x) {
   #                      "can", "could", "should", "she", "did", "will", "they", "has", "her", "our", "many", "this", "that", 
   #                      "does", "did", "some", "has", "our", "&lt", "&gt") )
   
-  # x = removeWords(x, c("#", "the", "and", "for", "amp", "its", "had", "from", "was", "about", "his", "you",
-  #                      "can", "could", "should", "she", "did", "will", "they", "has", "her", "our", "many", "this", "that", 
-  #                      "does", "did", "some", "has", "our", "&lt", "&gt", "i", "me", "my", "myself", "we", "our", "ours", 
-  #                      "ourselves", "you", "your", "yours", "yourself", "yourselves", "he", "him", "his", "himself", "she",
-  #                      "her", "hers", "herself", "it", "its", "itself", "they", "them", "their", "theirs", "themselves", "what",
-  #                      "which", "who", "whom", "this", "that", "these", "those", "am", "is", "are", "was", "were", "be", "been",
-  #                      "being", "have", "has", "had", "having", "do", "does", "did", "doing", "would", "should", "could", 
-  #                      "ought", "im", "youre", "hes", "shes", "its", "were", "theyre", "ive", "youve", "weve", "theyve", "id", 
-  #                      "youd", "hed", "theyd", "youll", "theyll", "lets", "thats", "whos", "whats", "heres", "theres", "whens", 
-  #                      "wheres", "whys", "hows", "a", "an", "the", "and", "but", "if", "or", "because", "as", "until", "while", "of",
-  #                      "at", "by", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", 
-  #                      "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", "under", "again", "further",
-  #                      "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more",
-  #                      "most", "other", "some", "such", "only", "own", "same", "so", "than", "to", "very", "will") )
-  
   # x = removeWords(x, c(stopwords("english"),"vaccine", "vaccines", "vaccination", "hpv", "shot", "immune", "vaccin", "rabi", "fluseason",
   #                      "cdc", "hepat", "flushot", "flu", "immun", "immunis", "influenza", "hepat", "autism", 
   #                      "vaccin", "immun", "antivaccin", "vaccin", "amp"))
