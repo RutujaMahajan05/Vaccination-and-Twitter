@@ -27,7 +27,6 @@ Word cloud - R script to generate word cloud for topics.
 
 LDAVis - R script to get LDA visualization plot. 
 
-Sample Tweets - CSV file of tweets harvested from twitter using script in Connection.R 
 
 
 
